@@ -31,7 +31,8 @@ const LISTA_INICIAL = [
     {"id":"L5C6","nome":"Cláudio e Esposa","mesa":"MESA 3 • Levítico","limite":2},
 
     {"id":"U1E8","nome":"Esperança e Deusa","mesa":"MESA Números","limite":2},
-    {"id":"U2M3","nome":"Mauro e Lila Cláudia e Celmira","mesa":"MESA Números","limite":3},
+    {"id":"U2M3", "nome": "Mauro e Lila", "mesa": "MESA Números", "limite": 2},
+    {"id":"U6C4", "nome": "Cláudia e Celmira", "mesa": "MESA Números", "limite": 2},
     {"id":"U3C5","nome":"Chanisa e Áurea","mesa":"MESA Números","limite":2},
     {"id":"U4O2","nome":"Ohana e Laura","mesa":"MESA Números","limite":2},
     {"id":"U5L7","nome":"Lídio e Quinita","mesa":"MESA Números","limite":2},
@@ -77,7 +78,7 @@ const LISTA_INICIAL = [
     {"id":"K1A6","nome":"Amândio e acompanhante","mesa":"MESA II Reis","limite":2},
     {"id":"K2A2","nome":"Alice e Andreia","mesa":"MESA II Reis","limite":2},
     {"id":"K3S8","nome":"Seul e acompanhante","mesa":"MESA II Reis","limite":2},
-    {"id":"K4L5","nome":"Lelê e acompanhante","mesa":"MESA II Reis","limite":2},
+    {"id":"K4L5","nome":"Republicano e Iveth","mesa":"MESA II Reis","limite":2},
     {"id":"K5C1","nome":"Clésio e Manucha","mesa":"MESA II Reis","limite":2},
 
     {"id":"C1L9","nome":"Liliandra e Junilde","mesa":"MESA 13 • I Crónicas","limite":2},
@@ -85,7 +86,7 @@ const LISTA_INICIAL = [
     {"id":"C3L2","nome":"Laércio e Dory","mesa":"MESA 13 • I Crónicas","limite":2},
     {"id":"C4J7","nome":"Jéssica e Manu","mesa":"MESA 13 • I Crónicas","limite":2},
     {"id":"C5L5","nome":"Luany","mesa":"MESA 13 • I Crónicas","limite":1},
-    {"id":"C6K1","nome":"Keura","mesa":"MESA 13 • I Crónicas","limite":1},
+    {"id":"C6K1","nome":"Gisela","mesa":"MESA 13 • I Crónicas","limite":1},
 
     {"id":"C1J4","nome":"Casal João 1","mesa":"MESA II Crônicas","limite":2},
     {"id":"C2J9","nome":"Casal João 2","mesa":"MESA II Crônicas","limite":2},
@@ -98,14 +99,14 @@ const LISTA_INICIAL = [
 
     {"id":"N1K9","nome":"Kassama e Emília","mesa":"MESA Neemias","limite":2},
     {"id":"N2C7","nome":"Capitango e Aurora","mesa":"MESA Neemias","limite":2},
-    {"id":"N3R4","nome":"Rosalina e Sola","mesa":"MESA Neemias","limite":2},
+    {"id":"N3R4","nome":"Ronilson e Brijida","mesa":"MESA Neemias","limite":2},
     {"id":"N4M2","nome":"MK e Alice","mesa":"MESA Neemias","limite":2},
     {"id":"N5S6","nome":"São e acompanhante","mesa":"MESA Neemias","limite":2},
 
     {"id":"T1A5","nome":"Ângelo e Acompanhante","mesa":"MESA 17 • Ester","limite":2},
     {"id":"T2E8","nome":"Eusébio e Acompanhante","mesa":"MESA 17 • Ester","limite":2},
     {"id":"T3G2","nome":"Glober e Acompanhante","mesa":"MESA 17 • Ester","limite":2},
-    {"id":"T4F6","nome":"Francisco e Acompanhante","mesa":"MESA 17 • Ester","limite":2},
+    {"id":"T4F6","nome":"Francisco e Esposa","mesa":"MESA 17 • Ester","limite":2},
     {"id":"T5J1","nome":"Joicy e Acompanhante","mesa":"MESA 17 • Ester","limite":2}
 ].map(c => ({ ...c, dentro: 0 }));
 
